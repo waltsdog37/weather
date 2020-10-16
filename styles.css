@@ -1,0 +1,55 @@
+/* Weather App 
+*/
+
+@import-normalize;
+
+body {
+    background-color: rgb(3, 3, 109);
+
+}
+
+#initial-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+h1#title {
+    color: white;
+    font-size:70px;
+    font-weight: bold;
+    text-shadow: 4px 4px grey;
+}
+
+#search-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 20px;
+    size: 50;
+}
+
+#city-name {
+    width: 400px;
+    outline: none;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+#city {
+    color: white;
+    font-size:70px;
+    font-weight: bold;
+    text-shadow: 4px 4px grey;
+}
